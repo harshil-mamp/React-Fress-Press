@@ -1,0 +1,266 @@
+{
+    "status": "ok",
+    "totalResults": 22,
+    "articles": [
+        {
+            "source": {
+                "id": "google-news-in",
+                "name": "Google News (India)"
+            },
+            "author": "The Indian Express",
+            "title": "Bengaluru News Live Updates: 'Opposition meet will have no impact', says Basavaraj Bommai - The Indian Express",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMidGh0dHBzOi8vaW5kaWFuZXhwcmVzcy5jb20vYXJ0aWNsZS9jaXRpZXMvYmFuZ2Fsb3JlL2JlbmdhbHVydS1uZXdzLWxpdmUtdXBkYXRlcy13ZWF0aGVyLXRyYWZmaWMtc2lkZGFyYW1haWFoLTg4NDA4MTUv0gEA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-07-16T08:56:15+00:00",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "Shivangi Acharya, Sarita Singh, Nikunj Ohri",
+            "title": "Exclusive: India to push G20 to raise share of taxes on firms where they earn 'excess profit,' officials say",
+            "description": "India will push its Group of 20 partners at a meeting it is hosting to support its proposal to raise the share of taxes multinational companies pay to countries where they earn \"excess profits\", government officials said.",
+            "url": "https://www.reuters.com/world/india/india-push-g20-raise-share-taxes-firms-where-they-earn-excess-profit-sources-2023-07-16/",
+            "urlToImage": "https://www.reuters.com/resizer/iIgvbXeAavQ6v7Kb-5kvSVwmLRs=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/VRMWFA6OFZIFDPCTPLJTALYXAU.jpg",
+            "publishedAt": "2023-07-16T04:41:50Z",
+            "content": "NEW DELHI, July 16 (Reuters) - India will push its Group of 20 partners at a meeting it is hosting to support its proposal to raise the share of taxes multinational companies pay to countries where t… [+3077 chars]"
+        },
+        {
+            "source": {
+                "id": "google-news-in",
+                "name": "Google News (India)"
+            },
+            "author": "India Today",
+            "title": "More rains worsen Delhi’s flood woes, PM Modi takes stock of situation - India Today",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMikQFodHRwczovL3d3dy5pbmRpYXRvZGF5LmluL2luZGlhL3N0b3J5L2RlbGhpLWl0by1yYWluLXdhdGVybG9nZ2luZy1mbG9vZC15YW11bmEtd2F0ZXItbGV2ZWwtcG0tbW9kaS1jYWxscy1sdC1nb3Zlcm5vci12ay1zYXhlbmEtMjQwNzE0OC0yMDIzLTA3LTE20gGVAWh0dHBzOi8vd3d3LmluZGlhdG9kYXkuaW4vYW1wL2luZGlhL3N0b3J5L2RlbGhpLWl0by1yYWluLXdhdGVybG9nZ2luZy1mbG9vZC15YW11bmEtd2F0ZXItbGV2ZWwtcG0tbW9kaS1jYWxscy1sdC1nb3Zlcm5vci12ay1zYXhlbmEtMjQwNzE0OC0yMDIzLTA3LTE2?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-07-16T01:18:45+00:00",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news-in",
+                "name": "Google News (India)"
+            },
+            "author": "IndiaTimes",
+            "title": "Heavy rain likely in many states as North India fights monsoon woes - IndiaTimes",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMifmh0dHBzOi8vbS50aW1lc29maW5kaWEuY29tL2luZGlhL2hlYXZ5LXJhaW4tbGlrZWx5LWluLW1hbnktc3RhdGVzLWFzLW5vcnRoLWluZGlhLWZpZ2h0cy1tb25zb29uLXdvZXMvYXJ0aWNsZXNob3cvMTAxNzkwMTg3LmNtc9IBAA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-07-15T22:06:00+00:00",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "associated-press",
+                "name": "Associated Press"
+            },
+            "author": "AJIT SOLANKI and FATIMA HUSSEIN",
+            "title": "Yellen visits India again to promote closer ties and tackle global economic problems",
+            "description": "GANDHINAGAR, India (AP) — On the heels of a trip to Beijing, U.S. Treasury Secretary Janet Yellen is back in India for the third time in nine months, this time to meet finance ministers from the Group of 20 nations about global economic challenges like the in…",
+            "url": "https://apnews.com/00bb1d4f460f9afffca66408ec727345",
+            "urlToImage": "https://storage.googleapis.com/afs-prod/media/d66a77cc3d3c4176a82abc6676c7c27c/3000.jpeg",
+            "publishedAt": "2023-07-15T22:02:08Z",
+            "content": "GANDHINAGAR, India (AP) — On the heels of a trip to Beijing, U.S. Treasury Secretary Janet Yellen is back in India for the third time in nine months, this time to meet finance ministers from the Grou… [+4696 chars]"
+        },
+        {
+            "source": {
+                "id": "cbc-news",
+                "name": "CBC News"
+            },
+            "author": "CBC News",
+            "title": "How a fake Hindu nation duped 3 B.C. cities | CBC News",
+            "description": "Surrey, Victoria, and Nanaimo mistakenly signed proclamations submitted by a fake country run by an Indian fugitive that has been targeting politicians all across North America to legitimize their questionable cause.",
+            "url": "http://www.cbc.ca/news/canada/british-columbia/fake-hindu-nation-scammed-bc-cities-signing-proclamation-1.6905234",
+            "urlToImage": "https://i.cbc.ca/1.6906265.1689291921!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_620/nithyanada-kailasa.jpg",
+            "publishedAt": "2023-07-15T20:22:29.5316958Z",
+            "content": "Three mayors from across B.C. proclaimed July 3, 2023, as \"Guru Purnima Day\" at the request of the United States of Kailasa. \r\nIt would have been an honest effort by the cities of Surrey, Victoria an… [+3583 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Robin Madell",
+            "title": "I left LA for Indiana and I love it — here's what it's like",
+            "description": "This couple moved from Southern California to Zionsville, Indiana and upgraded from a small apartment to a three-bedroom home for half the cost.",
+            "url": "http://www.businessinsider.com/moving-to-indiana-from-los-angeles-cheaper-housing-outdoors-tech-2023-7",
+            "urlToImage": "https://i.insider.com/64b1cfe7f9a2590019476fe0?width=1200&format=jpeg",
+            "publishedAt": "2023-07-15T09:50:00Z",
+            "content": "This as-told-to essay is based on a conversation with Arvind Murthy, a 38-year-old general manager and early-stage startup advisor based in Zionsville, Indiana, about his relocation. It's been edited… [+374 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider-uk",
+                "name": "Business Insider (UK)"
+            },
+            "author": "Robin Madell",
+            "title": "I left LA for Indiana and I love it — here's what it's like",
+            "description": "This couple moved from Southern California to Zionsville, Indiana and upgraded from a small apartment to a three-bedroom home for half the cost.",
+            "url": "http://uk.businessinsider.com/moving-to-indiana-from-los-angeles-cheaper-housing-outdoors-tech-2023-7",
+            "urlToImage": "https://i.insider.com/64b1cfe7f9a2590019476fe0?width=1200&format=jpeg",
+            "publishedAt": "2023-07-15T09:50:00Z",
+            "content": "This as-told-to essay is based on a conversation with Arvind Murthy, a 38-year-old general manager and early-stage startup advisor based in Zionsville, Indiana, about his relocation. It's been edited… [+374 chars]"
+        },
+        {
+            "source": {
+                "id": "the-huffington-post",
+                "name": "The Huffington Post"
+            },
+            "author": "Sara Boboltz",
+            "title": "2 Killed Separately In Suspected Anti-Transgender Attacks",
+            "description": "The attacks claimed the lives of an Indiana woman and an Oregon man, both cisgender people.",
+            "url": "https://www.huffpost.com/entry/two-killed-separately-in-suspected-anti-transgender-attacks_n_64b15ab0e4b09a3b488c6e00",
+            "urlToImage": "https://img.huffingtonpost.com/asset/64b1875825000062007e0a51.jpeg?cache=SwLQ6mtnk2&ops=1200_630",
+            "publishedAt": "2023-07-14T19:07:32Z",
+            "content": "Anti-transgender sentiment is suspected to have played a role in the separate deaths of two people, an Oregon man and an Indiana woman, over the past two weeks.\r\nThe first incident played out at an a… [+2147 chars]"
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Rhea Mogul, Sania Farooqui, Manveena Suri",
+            "title": "India launches historic Chandrayaan-3 mission to land spacecraft on the moon",
+            "description": "India is bidding to become only the fourth country to execute a controlled landing on the moon with the successful launch Friday of its Chandrayaan-3 mission.",
+            "url": "https://www.cnn.com/2023/07/13/india/chandrayaan-3-moon-mission-launch-intl-hnk-scn/index.html",
+            "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/230714161847-03-chandrayaan-3-extra-0714.jpg?c=16x9&q=w_800,c_fill",
+            "publishedAt": "2023-07-14T00:38:59Z",
+            "content": "Sign up for CNNs Wonder Theory science newsletter. Explore the universe with news on fascinating discoveries, scientific advancements and more. \r\nIndia is bidding to become only the fourth country to… [+4714 chars]"
+        },
+        {
+            "source": {
+                "id": "le-monde",
+                "name": "Le Monde"
+            },
+            "author": "Brieuc Beckers, Marceau Bretonnier, Elisa Bellanger et Adrien Sahli",
+            "title": "Vidéo. De « Star Wars » à « Indiana Jones », la technique qui rend ces musiques de film inoubliables",
+            "description": "Vidéo - A 91 ans, le compositeur John Williams signe la bande-son du dernier « Indiana Jones », en salles le 28 juin. Le service vidéo du « Monde » a tenté de percer ses secrets de fabrication, avec l’aide d’un jeune orchestre symphonique.",
+            "url": "https://www.lemonde.fr/culture/video/2023/06/26/de-star-wars-a-indiana-jones-la-technique-qui-rend-ces-musiques-de-film-inoubliables_6179298_3246.html",
+            "urlToImage": "https://img.lemde.fr/2023/06/21/0/131/1620/1080/1440/960/60/0/5eba91f_1687333721261-thumbnail-john-williams-site.png",
+            "publishedAt": "2023-06-26T15:00:08Z",
+            "content": "Êtes-vous capable de fredonner la musique des films Star Wars,Indiana Jones, Jurassic Park ou Harry Potter ? Derrière leur célébrité quasi universelle, ces thèmes musicaux partagent un point commun :… [+678 chars]"
+        },
+        {
+            "source": {
+                "id": "fortune",
+                "name": "Fortune"
+            },
+            "author": "Emma Hinchliffe, Paige McGlauflin",
+            "title": "Why a former SoftBank partner is tackling mid-career drop-off for working mothers",
+            "description": "Former SoftBank partner and Facebook India director Kirthiga Reddy is the cofounder of Laddrr, a resource hub for working mothers aiming to prevent mid-career drop-off.",
+            "url": "https://fortune.com/2022/06/01/former-softbank-partner-tackling-mid-career-drop-off-for-working-mothers/",
+            "urlToImage": "https://content.fortune.com/wp-content/uploads/2022/05/Kirthiga1.jpg?resize=1200,600",
+            "publishedAt": "2022-06-01T13:22:34Z",
+            "content": "Skip to Content"
+        },
+        {
+            "source": {
+                "id": "the-hindu",
+                "name": "The Hindu"
+            },
+            "author": "Ananth Krishnan",
+            "title": "Dalai Lama’s close aides targeted on Pegasus spyware list",
+            "description": "‘Analysis indicates that the Indian govt. was selecting the potential targets’",
+            "url": "https://www.thehindu.com/news/international/dalai-lamas-close-aides-targeted-on-pegasus-spyware-list/article35474285.ece",
+            "urlToImage": "https://www.thehindu.com/news/international/dvshb0/article35474284.ece/ALTERNATES/LANDSCAPE_615/thjc-DalaiLama",
+            "publishedAt": "2021-07-22T15:47:01Z",
+            "content": "Several of the top India-based aides to the Tibetan spiritual leader, the Dalai Lama, figure on the list of potential targets for spying using the Pegasus spyware, according to a report on Thursday. … [+2399 chars]"
+        },
+        {
+            "source": {
+                "id": "rte",
+                "name": "RTE"
+            },
+            "author": "RTÉ News",
+            "title": "UK continues with reopening plan despite concerns",
+            "description": "British ministers are pushing on with a major easing of restrictions on Monday despite concerns over the Indian variant of coronavirus, as they were criticised for allowing the strain's import.",
+            "url": "https://www.rte.ie/news/uk/2021/0515/1221764-uk-indian-variant/",
+            "urlToImage": "https://img.rasset.ie/0016cb40-1600.jpg",
+            "publishedAt": "2021-05-15T09:33:48Z",
+            "content": "British ministers are pushing on with a major easing of restrictions on Monday despite concerns over the Indian variant of coronavirus, as they were criticised for allowing the strain's import.\r\nPrim… [+5066 chars]"
+        },
+        {
+            "source": {
+                "id": "the-times-of-india",
+                "name": "The Times of India"
+            },
+            "author": "Rajat Pandit",
+            "title": "Army explores procurement of 350 light tanks for mountainous terrain after border standoff with China",
+            "description": "India News:  The Army is now exploring the possibility of procuring 350 light tanks, which can also be transported by air, to augment its firepower in high-altitu",
+            "url": "http://timesofindia.indiatimes.com/india/army-explores-procurement-of-350-light-tanks-for-mountainous-terrain-after-border-standoff-with-china/articleshow/82217825.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-82217908,width-1070,height-580,imgsize-264639,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2021-04-23T08:29:00Z",
+            "content": "Army explores procurement of 350 light tanks for mountainous terrain after border standoff with China\r\n<ul><li>News</li>\r\n<li>India News</li>\r\n<li>Army explores procurement of 350 light tanks for mou… [+58 chars]"
+        },
+        {
+            "source": {
+                "id": "the-times-of-india",
+                "name": "The Times of India"
+            },
+            "author": "Times Of India",
+            "title": "PBKS vs MI Live Score, IPL 2021: Mumbai Indians seek consistency; Punjab Kings eye return to winning ways",
+            "description": "IPL Live Score: Mumbai Indians seek consistency; Punjab Kings eye return to winning ways. Stay with TOI to get IPL live score, playing 11, scorecard, highlights and ball by ball score updates of the 17th IPL match between Punjab Kings and Mumbai Indians.",
+            "url": "http://timesofindia.indiatimes.com/sports/cricket/ipl/live-blog/punjab-kings-vs-mumbai-indians-pbks-vs-mi-live-score-ipl-2021-17th-match-chennai/liveblog/82214950.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-82214950,width-1070,height-580,imgsize-157009,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2021-04-23T05:44:49Z",
+            "content": "Ravi Bishnoi return on the cards?\r\nDeepak Hooda showed what he is capable of, but greater consistency would be needed from him if the team has to prosper. They bet on Australian pace imports Jhye Ric… [+3131 chars]"
+        },
+        {
+            "source": {
+                "id": "the-times-of-india",
+                "name": "The Times of India"
+            },
+            "author": "PTI",
+            "title": "Zydus Cadila gets DCGI nod for hepatitis drug for Covid-19 treatment",
+            "description": "India News: Drug firm Zydus Cadila on Friday said it has received restricted emergency use approval from the Indian drug regulator for the use of Pegylated Interf",
+            "url": "http://timesofindia.indiatimes.com/india/zydus-cadila-gets-dcgi-nod-for-hepatitis-drug-for-covid-19-treatment/articleshow/82214909.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-82214921,width-1070,height-580,imgsize-98052,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2021-04-23T05:43:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "the-times-of-india",
+                "name": "The Times of India"
+            },
+            "author": "Bloomberg",
+            "title": "Even record death toll may hide extent of India’s Covid crisis",
+            "description": "India News: Bodies piling up at crematoriums and burial grounds across India are sparking concerns that the death toll from a ferocious new Covid-19 wave may be m.",
+            "url": "http://timesofindia.indiatimes.com/india/even-record-death-toll-may-hide-extent-of-indias-covid-crisis/articleshow/82213444.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-82213819,width-1070,height-580,imgsize-232887,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2021-04-23T04:41:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "the-times-of-india",
+                "name": "The Times of India"
+            },
+            "author": "Dipak K Dash",
+            "title": "Government to provide 5 kg free food grains to poor for May & June",
+            "description": "India News: The government on Friday announced to provide 5 kg free food grains to the poor for May and June 2021. This will cover nearly 80 crore beneficiaries u",
+            "url": "http://timesofindia.indiatimes.com/india/government-to-provide-5-kg-free-food-grains-to-poor-for-may-june/articleshow/82213582.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-82213583,width-1070,height-580,imgsize-1921513,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2021-04-23T04:23:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "the-times-of-india",
+                "name": "The Times of India"
+            },
+            "author": "TIMESOFINDIA.COM",
+            "title": "'Inappropriate': PM Modi objects to 'protocol break' during meeting; Delhi CM expresses regret",
+            "description": "India News: Delhi chief minister Arvind Kejriwal on Friday faced flak for sharing a live telecast of an \"in-house\" meeting with Prime Minister Narendra Modi where",
+            "url": "http://timesofindia.indiatimes.com/india/delhi-cmo-expresses-regret-over-televised-address-during-meeting-with-pm-modi/articleshow/82213159.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-82213159,width-1070,height-580,imgsize-134672,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2021-04-23T03:54:00Z",
+            "content": null
+        }
+    ]
+}
