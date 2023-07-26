@@ -1,53 +1,54 @@
 
 import './App.css';
 
-import React, { Component } from 'react'
+import React, { useState } from 'react'
 import NavBar from './components/NavBar';
 import News from './components/News';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import LoadingBar from 'react-top-loading-bar'
 
-export default class App extends Component {
-  apikey = process.env.REACT_APP_NEWS_API
 
-  state = {
-    progress: 0,
-    countryName: "in"
 
+
+export default function App() {
+  const apikey = process.env.REACT_APP_NEWS_API
+
+  const [progress, setProgress] = useState(0)
+  const [countryName, setCountryName] = useState("in")
+
+  const setprogress = (progress) => {
+    setProgress(progress)
   }
-  setprogress = (progress) => {
-    this.setState({ progress: progress })
-  }
-  setCountryName = (cname) => {
-    this.setState({ countryName: cname })
-    console.log(this.state)
+  const changeCountry = (cname) => {
+    setCountryName(cname)
     console.log("country changed")
   }
 
-  render() {
-    return (
-      <>
-        <BrowserRouter>
-          <div>
-            <NavBar setCountryName={this.setCountryName} country={this.state.countryName} />
-            <LoadingBar
-              color='#f11946'
-              progress={this.state.progress}
-            />
+  return (
+    <>
+      <BrowserRouter>
+        <div>
+          <NavBar setCountryName={changeCountry} country={countryName} />
+          <LoadingBar
+            color='#f11946'
+            progress={progress}
+          />
 
-            <Routes>
-              <Route exect path="/" element={<News setprogress={this.setprogress} page={12} key="general" apikey={this.apikey} category="general" country={this.state.countryName} countryName="INDIA" />}  ></Route>
-              <Route exect path="/business" element={<News setprogress={this.setprogress} page={12} key="business" apikey={this.apikey} category="business" country={this.state.countryName} countryName="INDIA" />}  ></Route>
-              <Route exect path="/entertainment" element={<News setprogress={this.setprogress} page={12} key="entertainment" apikey={this.apikey} category="entertainment" country={this.state.countryName} countryName="INDIA" />}  ></Route>
-              <Route exect path="/health" element={<News setprogress={this.setprogress} page={12} key="health" apikey={this.apikey} category="health" country={this.state.countryName} countryName="INDIA" />}  ></Route>
-              <Route exect path="/science" element={<News setprogress={this.setprogress} page={12} key="science" apikey={this.apikey} category="science" country={this.state.countryName} countryName="INDIA" />}  ></Route>
-              <Route exect path="/sports" element={<News setprogress={this.setprogress} page={12} key="sports" apikey={this.apikey} category="sports" country={this.state.countryName} countryName="INDIA" />}  ></Route>
-              <Route exect path="/technology" element={<News setprogress={this.setprogress} page={12} key="technology" apikey={this.apikey} category="technology" country={this.state.countryName} countryName="INDIA" />}  ></Route>
-            </Routes>
-          </div>
-        </BrowserRouter>
-      </>
-    )
-  }
+          <Routes>
+            <Route exect path="/" element={<News setprogress={setprogress} page={12} key="general" apikey={apikey} category="general" country={countryName} />}  ></Route>
+            <Route exect path="/business" element={<News setprogress={setprogress} page={12} key="business" apikey={apikey} category="business" country={countryName} />}  ></Route>
+            <Route exect path="/entertainment" element={<News setprogress={setprogress} page={12} key="entertainment" apikey={apikey} category="entertainment" country={countryName} />}  ></Route>
+            <Route exect path="/health" element={<News setprogress={setprogress} page={12} key="health" apikey={apikey} category="health" country={countryName} />}  ></Route>
+            <Route exect path="/science" element={<News setprogress={setprogress} page={12} key="science" apikey={apikey} category="science" country={countryName} />}  ></Route>
+            <Route exect path="/sports" element={<News setprogress={setprogress} page={12} key="sports" apikey={apikey} category="sports" country={countryName} />}  ></Route>
+            <Route exect path="/technology" element={<News setprogress={setprogress} page={12} key="technology" apikey={apikey} category="technology" country={countryName} />}  ></Route>
+          </Routes>
+
+        </div>
+
+      </BrowserRouter>
+    </>
+  )
 }
+
 

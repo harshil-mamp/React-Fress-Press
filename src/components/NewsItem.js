@@ -5,7 +5,7 @@ export default function NewsItem(props) {
     return (
         <div>
             <div className="card" style={{ width: "20rem" }}>
-                <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                <span className="position-absolute top-0 start-100 translate-middle badge  text-white bg-dark" style={{ opacity: "0.5" }}>
                     <span className="visually-hidden"> {props.source}</span>
                 </span>
 

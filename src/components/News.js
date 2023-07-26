@@ -1,100 +1,102 @@
-import React, { Component } from 'react'
+import React, { useState, useEffect } from 'react'
 import NewsItem from './NewsItem'
 import Spinner from './Spinner';
 
-export class News extends Component {
 
+export default function News(props) {
+    const [articles, setarticles] = useState([])
+    const [loading, setloading] = useState(false)
+    const [page, setpage] = useState(1)
+    const [totalarticles, settotalarticles] = useState(0)
+    document.title = ` ${props.category.toUpperCase()} -The Fresh Presh`
 
-
-    constructor(props) {
-        super(props);
-        console.log("cunstructor called.")
-        this.state = {
-            articles: [],
-            loading: false,
-            page: 1
-        }
-        document.title = `The Fresh Presh - ${this.props.category}`
-    }
-    async updatePage(page = 1) {
-        this.props.setprogress(0);
-        let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apikey}&pageSize=${this.props.page}&page=${page}`
-        this.setState({ loading: true })
+    const updatePage = async (page = 1) => {
+        props.setprogress(0);
+        let url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apikey}&pageSize=${props.page}&page=${page}`
+        // this.setState({ loading: true })
+        setloading(true)
 
 
         let data = await fetch(url);
-        this.props.setprogress(30);
+        props.setprogress(10);
         let parseData = await data.json()
+        props.setprogress(30);
         console.log(parseData);
-        this.props.setprogress(60);
-        this.setState({ articles: parseData.articles, page: page, totalArticles: parseData.totalResults, loading: false })
-        this.props.setprogress(100);
+        props.setprogress(50);
+        // this.setState({ articles: parseData.articles, page: page, totalArticles: parseData.totalResults, loading: false })
+        setarticles(parseData.articles)
+        setpage(page)
+        settotalarticles(parseData.totalResults)
+        setloading(false)
+        props.setprogress(100);
 
     }
-    async componentDidMount() {
-        this.updatePage()
-    }
-    async componentDidUpdate(prevProps) {
-        if (prevProps.countryName !== this.props.countryName) {
-            await this.updatePage();
-        }
-    }
+    useEffect(() => {
+        updatePage()
+    }, [props.country])
+
+
+    // async componentDidUpdate(prevProps) {
+    //     if (prevProps.countryName !== props.countryName) {
+    //         await this.updatePage();
+    //     }
+    // }
 
 
 
-    handleNextClick = async () => {
-        console.log(this.state.page)
+    const handleNextClick = async () => {
+        console.log(page)
         console.log("Next")
-        console.log(this.state.page + 1)
-        this.setState({
-            page: this.state.page + 1,
-        })
-        this.updatePage(this.state.page + 1)
+        console.log(page + 1)
+        setpage(page + 1)
+        updatePage(page + 1)
 
 
 
 
 
     }
-    handlePreviousClick = async () => {
-        console.log(this.state.page)
+    const handlePreviousClick = async () => {
+        console.log(page)
         console.log("Previous")
-        console.log(this.state.page - 1)
-        this.setState({
-            page: this.state.page - 1,
-        })
-        this.updatePage(this.state.page - 1)
+        console.log(page - 1)
+        setpage(page - 1)
+        updatePage(page - 1)
 
     }
-    render() {
-        console.log("render")
-        return (
-            <>
-                {this.state.loading && <Spinner />}
-                {!this.state.loading && <div className="container my-5">
-                    <h1 className='text-center' style={{ marginTop: "90px" }}>The Fress Press - Top {this.props.category} headlines in {this.props.countryName}</h1>
+    return (
+        <>
+            {loading && <Spinner />}
+            {!loading && <div className="container my-5">
+                <h1 className='text-center' style={{ marginTop: "90px" }}>The Fress Press - Top {props.category} headlines of {props.country === "us" ? "USA" : null}
+                    {props.country === "in" ? "INDIA " : null}
+                    {props.country === "jp" ? "JAPAN" : null}
+                    {props.country === "nz" ? "New Zealand" : null}
+                    {props.country === "rs" ? "Russia" : null}
+                    {props.country === "it" ? "Itali " : null}</h1>
 
-                    <div className='row my-5'>
-                        {this.state.articles && this.state.articles.map((element) => {
-                            return <div className="col my-2" key={element.url}>
-                                <NewsItem title={!element.title ? "" : element.title} desc={!element.description ? "" : element.description.slice(0, 60)} imgurl={!element.urlToImage ? "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/640px-Image_not_available.png" : element.urlToImage} url={element.url} author={element.author} date={element.publishedAt} source={element.source.name} />
-                            </div>
+                <div className='row my-5'>
+                    {articles && articles.map((element) => {
+                        return <div className="col my-2" key={element.url}>
+                            <NewsItem title={!element.title ? "" : element.title} desc={!element.description ? "" : element.description.slice(0, 60)} imgurl={!element.urlToImage ? "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/640px-Image_not_available.png" : element.urlToImage} url={element.url} author={element.author} date={element.publishedAt} source={element.source.name} />
+                        </div>
 
 
-                        })}
+                    })}
 
 
-                    </div>
-                    <div className="d-flex justify-content-between">
-                        <button disabled={this.state.page <= 1} className="btn btn-dark" onClick={this.handlePreviousClick}> Previous</button>
-                        <button disabled={this.state.page >= Math.ceil(this.state.totalArticles / this.props.page)} className="btn btn-dark" onClick={this.handleNextClick}>Next</button>
+                </div>
+                <div className="d-flex justify-content-between">
+                    <button disabled={page <= 1} className="btn btn-dark" onClick={handlePreviousClick}> Previous</button>
+                    <button disabled={page >= Math.ceil(totalarticles / props.page)} className="btn btn-dark" onClick={handleNextClick}>Next</button>
 
-                    </div>
-                </div>}
-            </>
-
-        )
-    }
+                </div>
+            </div>}
+        </>
+    )
 }
 
-export default News 
+
+
+
+
